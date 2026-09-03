@@ -1,0 +1,13 @@
+Data_ID,Entity,Field,Value,Purpose
+P001,Patient,mobile,9876500001,Primary synthetic patient
+P002,Patient,mobile,9876500002,Concurrency/authorization synthetic patient
+D001,Doctor,name,Dr Meena Raman,Search and profile
+D001,Doctor,specialty,Cardiology,Search/filter
+S001,Slot,status,AVAILABLE,Positive booking
+S002,Slot,status,AVAILABLE,Concurrent booking
+S010,Slot,status,BOOKED,Reschedule source
+S011,Slot,status,AVAILABLE,Reschedule destination
+PAY_SUCCESS,Payment,method,sandbox_success,Successful payment
+PAY_DECLINE,Payment,method,sandbox_decline,Declined payment
+OTP_VALID,Authentication,value,Use authorized environment secret,Do not commit real OTP
+
