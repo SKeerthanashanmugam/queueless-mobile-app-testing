@@ -7,4 +7,5 @@ automation/reports/
 *.ipa
 .env
 secrets.*
-
+android-app/.idea/
+android-app/gradle/gradle-daemon-jvm.properties

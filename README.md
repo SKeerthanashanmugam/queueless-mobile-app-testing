@@ -2,7 +2,7 @@
 
 Portfolio QA project demonstrating manual mobile testing for an Android/iOS hospital appointment application, supported by API, database, accessibility, compatibility, and Appium automation assets.
 
-> **Portfolio status:** The included Python/SQLite reference service has been genuinely executed through automated tests; see `reports/automated-test-run.md`. Manual Android/iOS cases require an actual application build and remain explicitly marked Not Run. No fabricated executions are claimed.
+**Portfolio status:** A working QueueLess Android application is included in `android-app/`. The app was built and installed on a physical OPPO CPH2495 running Android 15. Nine manual smoke/critical-path tests, Android unit and instrumented tests, and ten Python/SQLite automated tests have been genuinely executed. The remaining manual cases are clearly marked Not Run.
 
 ## Product under test
 
@@ -32,6 +32,7 @@ QueueLess enables patients to register, find doctors, book/reschedule/cancel app
 | `demo_api/` | Executable Python/SQLite reference service and automated integration tests |
 | `reports/` | Committed evidence from genuine automated test runs |
 | `evidence/` | Screenshot placeholder and evidence naming guide |
+| `android-app/` | Working Kotlin/Jetpack Compose Android application tested on a physical device |
 
 ## Suggested application scope
 
