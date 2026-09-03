@@ -87,17 +87,6 @@ newman run api/QueueLess.postman_collection.json -e api/QueueLess.local.postman_
 6. Run API, SQL and automation checks where access is available.
 7. Complete `docs/test-summary-report.md` with actual totals.
 
-## Resume-ready description (use after genuine execution)
-
-**QueueLess – Smart Hospital Appointment Mobile App Testing**  
-*Manual Mobile Testing | Android/iOS | Appium | Postman | SQL | Jira-style Defect Tracking*
-
-- Designed risk-based test coverage for authentication, doctor search, appointment booking, payment, cancellation, refunds and notifications.
-- Performed functional, usability, compatibility, interruption and network-condition testing across selected mobile configurations.
-- Documented reproducible defects with severity, priority and evidence; maintained requirement traceability and test summary reporting.
-- Validated REST APIs and database consistency and automated stable smoke flows using Appium and Pytest.
-
-Only retain bullets describing work you actually execute.
 
 ## Author
 
