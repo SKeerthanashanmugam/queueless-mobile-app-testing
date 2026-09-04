@@ -108,6 +108,20 @@ Evidence: `evidence/screenshots/API-Postman-Collection-Run.png`
 
 Detailed results: `docs/api-test-execution-report.md`
 
+## Database and service testing execution
+
+Executed Python `unittest` validations against the SQLite-backed service.
+
+- 10 tests executed
+- 10 tests passed
+- 100% pass rate
+- 0 failures and 0 errors
+- Validated booking, double-booking prevention, payments, cancellation and data consistency
+
+Evidence: `evidence/screenshots/DB-Test-Results.png`
+
+Detailed results: `docs/database-test-execution-report.md`
+
 ## Author
 
 Keerthana S — Software Testing portfolio project
