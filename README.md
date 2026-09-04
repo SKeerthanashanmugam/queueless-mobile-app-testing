@@ -89,6 +89,25 @@ newman run api/QueueLess.postman_collection.json -e api/QueueLess.local.postman_
 7. Complete `docs/test-summary-report.md` with actual totals.
 
 
+## API testing execution
+
+REST API testing was completed using Postman against the local Python reference API.
+
+- 7 API requests executed
+- 11 test assertions passed
+- 0 failures and 0 errors
+- Average response time: 8 ms
+- Covered health, OTP, doctor search, slots, appointment creation/retrieval, and unauthorized-access validation
+
+Run the local API:
+
+```powershell
+python demo_api/server.py
+```
+Evidence: `evidence/screenshots/API-Postman-Collection-Run.png`
+
+Detailed results: `docs/api-test-execution-report.md`
+
 ## Author
 
 Keerthana S — Software Testing portfolio project
