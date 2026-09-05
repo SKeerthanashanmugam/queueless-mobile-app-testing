@@ -5,6 +5,10 @@
   "deviceName": "Android Emulator",
   "app": "CHANGE_TO_ABSOLUTE_APK_PATH",
   "appWaitActivity": "*",
-  "newCommandTimeout": 120
+  "newCommandTimeout": 120,
+  "noReset": true,
+  "fullReset": false,
+  "forceAppLaunch": true,
+  "shouldTerminateApp": true
 }
 

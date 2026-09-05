@@ -122,6 +122,23 @@ Evidence: `evidence/screenshots/DB-Test-Results.png`
 
 Detailed results: `docs/database-test-execution-report.md`
 
+## Mobile automation testing execution
+
+Executed Appium tests on a physical OPPO CPH2495 device running Android 15.
+
+- 3 automated tests executed
+- 3 tests passed
+- 100% pass rate
+- 0 failures, 0 errors and 0 skipped
+- Validated invalid-mobile error handling, OTP login and doctor search by specialty
+- Tools: Appium 3.7.0, UiAutomator2, Python and Pytest
+
+Evidence: `evidence/screenshots/Appium-Test-Results.png`
+
+HTML report: `automation/reports/appium-test-report.html`
+
+Detailed results: `docs/appium-test-execution-report.md`
+
 ## Author
 
 Keerthana S — Software Testing portfolio project

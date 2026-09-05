@@ -4,9 +4,12 @@ from selenium.webdriver.support.ui import WebDriverWait
 
 
 class HomePage:
-    TITLE = (AppiumBy.ACCESSIBILITY_ID, "home-title")
-    SEARCH = (AppiumBy.ACCESSIBILITY_ID, "doctor-search")
-    RESULT_CARDS = (AppiumBy.ACCESSIBILITY_ID, "doctor-result-card")
+    TITLE = (AppiumBy.ANDROID_UIAUTOMATOR, 'new UiSelector().text("Find a Doctor")',)
+    SEARCH = (AppiumBy.CLASS_NAME, "android.widget.EditText")
+    RESULT_CARDS = (
+        AppiumBy.ANDROID_UIAUTOMATOR,
+        'new UiSelector().textContains("Cardiology")',
+    )
 
     def __init__(self, driver, timeout=15):
         self.driver = driver
