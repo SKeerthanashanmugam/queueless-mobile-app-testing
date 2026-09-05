@@ -2,7 +2,7 @@
   "appium_url": "http://127.0.0.1:4723",
   "platformName": "Android",
   "automationName": "UiAutomator2",
-  "deviceName": "Android Emulator",
+  "deviceName": "OPPO CPH2495",
   "app": "CHANGE_TO_ABSOLUTE_APK_PATH",
   "appWaitActivity": "*",
   "newCommandTimeout": 120,
